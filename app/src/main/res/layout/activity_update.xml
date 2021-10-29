@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey5"
+    tools:context=".UpdateActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="    Uppdatera elev"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp">
+        <TextView
+            android:text="Förnamn:"
+            android:textSize="16sp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/updateFornamn"
+            android:text="förnamn"
+            android:textSize="16sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp">
+        <TextView
+            android:text="Efternamn:"
+            android:textSize="16sp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/updateEfternamn"
+            android:text="efternamn"
+            android:textSize="16sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp">
+        <TextView
+            android:text="Personnr:"
+            android:textSize="16sp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/updatePnummer"
+            android:text="pnummer"
+            android:textSize="16sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp">
+        <TextView
+            android:text="Adress:"
+            android:textSize="16sp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/updateAdress"
+            android:text="adress"
+            android:textSize="16sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp">
+        <TextView
+            android:text="Telefonnr:"
+            android:textSize="16sp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/updateTelefonnummer"
+            android:text="telefonnr"
+            android:textSize="16sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp">
+        <TextView
+            android:text="Email:"
+            android:textSize="16sp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/updateEmail"
+            android:text="email"
+            android:textSize="16sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:onClick="btnUpdate_onClick"
+        android:text="Uppdatera person i listan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+</LinearLayout>
